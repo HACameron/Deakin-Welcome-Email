@@ -1,7 +1,7 @@
 const express = require ("express")
 const bodyParser = require("body-parser")
 const sgMail = require('@sendgrid/mail')
-sgMail.setApiKey('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')
+sgMail.setApiKey('YOUR_API_KEY')
 
 const app = express()
 app.use(bodyParser.urlencoded({extended:true}))
